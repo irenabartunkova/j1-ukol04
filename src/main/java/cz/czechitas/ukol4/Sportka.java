@@ -42,7 +42,7 @@ public class Sportka {
   public List<Integer> vylosovanaCisla() {
     //TODO Vrátit seznam prvních 6 čísel z osudí.
 
-    return null;
+    return osudi.subList(0, 6);
   }
 
   /**
