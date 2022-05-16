@@ -28,6 +28,7 @@ public class Sportka {
    */
   public void zamichat() {
     //TODO zamíchat osudí
+    Collections.shuffle(osudi);
 
   }
 
