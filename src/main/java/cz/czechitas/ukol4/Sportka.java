@@ -52,7 +52,7 @@ public class Sportka {
    */
   public Integer dodatkoveCislo() {
     //TODO Vrátit sedmé číslo z osudí.
-    return null;
+    return osudi.get(7);
 
   }
 }
