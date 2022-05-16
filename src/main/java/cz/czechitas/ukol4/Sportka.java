@@ -12,6 +12,13 @@ public class Sportka {
 
   public Sportka() {
     //TODO naplnit osudí čísly 1 až 49.
+     int naplnOsudi = 1;
+    for (int i = 1; i < 50; i++) {
+      System.out.println(naplnOsudi);
+      naplnOsudi = naplnOsudi + 1;
+      osudi.add(naplnOsudi);
+    }
+
   }
 
   /**
@@ -21,6 +28,7 @@ public class Sportka {
    */
   public void zamichat() {
     //TODO zamíchat osudí
+
   }
 
   /**
@@ -32,6 +40,7 @@ public class Sportka {
    */
   public List<Integer> vylosovanaCisla() {
     //TODO Vrátit seznam prvních 6 čísel z osudí.
+
     return null;
   }
 
@@ -43,5 +52,6 @@ public class Sportka {
   public Integer dodatkoveCislo() {
     //TODO Vrátit sedmé číslo z osudí.
     return null;
+
   }
 }
