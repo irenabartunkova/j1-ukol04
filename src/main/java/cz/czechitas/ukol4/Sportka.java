@@ -12,8 +12,8 @@ public class Sportka {
 
   public Sportka() {
     //TODO naplnit osudí čísly 1 až 49.
-     int naplnOsudi = 1;
-    for (int i = 1; i < 50; i++) {
+     int naplnOsudi = 0;
+    for (int i = 0; i <=49; i++) {
       System.out.println(naplnOsudi);
       naplnOsudi = naplnOsudi + 1;
       osudi.add(naplnOsudi);
@@ -52,7 +52,7 @@ public class Sportka {
    */
   public Integer dodatkoveCislo() {
     //TODO Vrátit sedmé číslo z osudí.
-    return osudi.get(7);
+    return osudi.get(6);
 
   }
 }
